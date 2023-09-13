@@ -175,3 +175,50 @@ body {
     font-style: normal;
     font-weight: 500;
 }
+
+/* Call to action CSS properties */
+
+.call_to_action_container {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.call_to_action {
+    display: flex;
+    background-color: #3882F6;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px;
+    border-radius: 15px;
+}
+
+.call_to_action button {
+    height: 40px;
+    padding: 0px 40px;
+    background-color: #3882F6;
+    outline: none;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+
+.call_to_action_main {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.call_to_action_sub {
+    margin: 0px;
+    padding: 0px;]
+    font-size: 18px;
+    color: #E5E7EB;
+}
