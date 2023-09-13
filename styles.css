@@ -222,3 +222,15 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+/* Footer CSS Properties */
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: white;
+    margin: 30px;
+    text-align: center;
+}
