@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -93,4 +93,52 @@ body {
 .hero img {
     max-width: auto;
     max-height: 250px;
+}
+
+/* Information CSS properties */
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 5%;
+}
+
+.information_header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+}
+
+.image_container {
+    width: 12.5rem;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image_container img {
+    max-width: 8rem;
+}
+
+.image_container p {
+    font-size: 18px;
+    color: #696969;
+    width: 10.5rem;
+}
+
+.icon_container {
+    min-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
